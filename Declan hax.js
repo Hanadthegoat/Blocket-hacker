@@ -1,6 +1,6 @@
 (async() => {
 	await ModMenu.init();
-	ModMenu.menu.arr.push(new ModMenu.MenuTree('glixzzy', [
+	ModMenu.menu.arr.push(new ModMenu.MenuTree('Declan Hax', [
 		new ModMenu.MenuTree('Cafe', [
 			new ModMenu.MenuButton('Get Coins', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/getCoins.js").then((res) => res.text().then((t) => eval(t)))),
 			new ModMenu.MenuButton('Infinite Food Level', () => fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/infiniteFoodLevel.js").then((res) => res.text().then((t) => eval(t)))),
